@@ -236,6 +236,28 @@
   },
   {
     "ModuleName": "Table/workflow_table",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "EmmaZhao",
+      "Email": "EmmaZhao@qq.com"
+    },
+    "LockDateTime": "2026-03-16T09:31:26.8725662+08:00",
+    "ModuleType": 7,
+    "IconType": 24,
+    "ToRemoveFiles": [
+      "Tables\\workflow_table.json",
+      "ForguncyDB.sqlite3"
+    ],
+    "ExclusiveType": 0
+  },
+  {
+    "ModuleName": "Table/workflow_table01",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "EmmaZhao",
+      "Email": "EmmaZhao@qq.com"
+    },
+    "LockDateTime": "2026-03-16T09:31:26.872408+08:00",
     "ModuleType": 7,
     "IconType": 24,
     "ExclusiveType": 0
