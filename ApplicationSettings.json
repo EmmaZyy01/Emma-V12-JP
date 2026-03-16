@@ -13,16 +13,16 @@
   "MultipleLanguageSettings": {
     "Languages": [
       {
-        "Name": "ja",
+        "Name": "cn",
         "IsDefault": true,
-        "Description": "組み込みの日本語は削除できません。",
+        "Description": "内置语言中文，不可删除",
         "IsBuildIn": true,
-        "LanguageAttribute": "ja",
+        "LanguageAttribute": "zh-cn",
         "FontFamily": "Body"
       },
       {
         "Name": "en",
-        "Description": "組み込みの英語は削除できません。",
+        "Description": "内置语言英文，不可删除",
         "IsBuildIn": true,
         "LanguageAttribute": "en",
         "FontFamily": "Calibri"
@@ -32,12 +32,30 @@
     "RuntimeBuiltInResource": {
       "FrontEndResources": {},
       "ServerResources": {},
-      "PluginResource": {}
-    }
+      "ProcessDesignerResource": {},
+      "ProcessTrackerResource": {}
+    },
+    "PluginResource": {}
   },
   "AppAIModelSettings": {
     "AIModels": []
   },
-  "AppMCPConfigSettingEncrypt": "0gu70qzOrh7lXSau63use5CjR0ORZwbLYkVTeAtBnqQ=",
-  "ServerCommandsAsMCPServerSetting": {}
+  "AppMCPConfigSettingEncrypt": "CenjpRlR4GU38OalW0mjUw==",
+  "ServerCommandsAsMCPServerSetting": {},
+  "OldWorkflowPermissionData": {
+    "$type": "Forguncy.RbacPermission.Core.Impl.OldWorkflow.OldWorkflowPermissionData, Forguncy.RbacPermission.Core",
+    "permissionResource": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.OldWorkflow.OldWorkflowPermissionResource, Forguncy.RbacPermission.Core"
+    },
+    "permissionBindings": [
+      {
+        "$type": "Forguncy.RbacPermission.Core.Impl.OldWorkflow.OldWorkflowPermissionBinding, Forguncy.RbacPermission.Core",
+        "oldWorkflowPermissionType": 1,
+        "roleNames": [
+          "Administrator",
+          "FGC_LoginUser"
+        ]
+      }
+    ]
+  }
 }
