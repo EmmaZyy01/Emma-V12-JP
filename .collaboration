@@ -226,12 +226,6 @@
   },
   {
     "ModuleName": "Table/workflow_table",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "EmmaZhao",
-      "Email": "EmmaZhao@qq.com"
-    },
-    "LockDateTime": "2026-03-16T09:29:43.4815784+08:00",
     "ModuleType": 7,
     "IconType": 24,
     "ExclusiveType": 0
