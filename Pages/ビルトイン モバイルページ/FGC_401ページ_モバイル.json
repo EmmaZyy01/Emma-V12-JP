@@ -1,0 +1,210 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "23": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "26": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "31": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 32
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "18": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 19
+  },
+  "Values": {
+    "13,2": "アクセス許可の問題",
+    "16,2": "ログイン中のユーザーには対象ページにアクセスする権限がありません。",
+    "20,2": "解決方法：",
+    "22,2": "1.",
+    "22,3": "一旦ログオフし、異なるアカウントでログインする",
+    "24,2": "2.",
+    "24,3": "Webブラウザーの戻るボタンをクリックして前ページに戻り、異なるリンクを試す",
+    "27,2": "3.",
+    "27,3": "管理者に問い合わせる"
+  },
+  "AttachInfos": {
+    "3,4": {
+      "CellType": {
+        "$type": "Forguncy.ImageCellType, ServerDesignerCommon",
+        "ImagePath": "fgc_built-in-page-401.png"
+      }
+    },
+    "22,3": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
+        "Text": "一旦ログオフし、異なるアカウントでログインする",
+        "TemplateKey": "_RS_Main",
+        "ForguncyAttribute": "401Login"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0,
+        "FontSize": 24.0,
+        "FontWeight": 1,
+        "Foreground": 2,
+        "Formatter": 3,
+        "HorizontalAlignment": 4
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 13.333333015441895,
+        "Foreground": 5,
+        "Formatter": 3,
+        "HorizontalAlignment": 6,
+        "VerticalAlignment": 7,
+        "WordWrap": true
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 16.0,
+        "FontWeight": 1,
+        "Foreground": 2,
+        "Formatter": 3
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 13.333333333333332,
+        "Foreground": 5,
+        "HorizontalAlignment": 6,
+        "VerticalAlignment": 7,
+        "Underline": false,
+        "Strikethrough": false
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 13.333333015441895,
+        "Foreground": null,
+        "Formatter": 3,
+        "Underline": false
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 13.333333015441895,
+        "Foreground": 5,
+        "Formatter": 3,
+        "VerticalAlignment": 7,
+        "WordWrap": true
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 13.333333015441895,
+        "Foreground": 5,
+        "Formatter": 3
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body",
+        "Bold",
+        "Text 1 25",
+        "[AUTO]General",
+        "Center",
+        "Text 1 50",
+        "Left",
+        "Top",
+        "#FF000000"
+      ]
+    },
+    "CellStyles": {
+      "13,2": 0,
+      "16,2": 1,
+      "20,2": 2,
+      "22,2": 3,
+      "22,3": 4,
+      "24,2": 3,
+      "24,3": 5,
+      "27,2": 3,
+      "27,3": 6
+    },
+    "SheetStyle": {
+      "FontFamily": 0,
+      "FontSize": -999.0,
+      "Foreground": 8
+    }
+  },
+  "Spans": [
+    "3,4,9,11",
+    "13,2,2,15",
+    "16,2,3,15",
+    "20,2,2,15",
+    "22,2,2,1",
+    "24,2,2,1",
+    "24,3,2,14",
+    "22,3,1,14"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "Title": "401ページ",
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "PropertyDefinitions": [],
+    "CommandDefinitions": [],
+    "MethodDefinitions": [],
+    "PageLoadedCommandList": [],
+    "IsBuiltInPage": true,
+    "IsMobilePage": true
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//FMr4mhnFlPo2ph6zIGkTSkaTY0thUzDqueYKuiIy7Gf0g/S+RZvz0x8oGzCoHtJzFmxHesprW48RHommq7JcDRn+Mubz5K9v0jva9vu+1pSptW0TWo/s+Q4wr7pRHyLShJbg+o+QQ/XyGhU2Ykl3xKl4ogXJFUffKimFdy4YboH+BDuHwYQemjL8s6i1ALx9IXJu+0Puhd7Tk4mLgMQdZk3FJL0mwZXI1fHw+mE787PhN2uG6I3rGZDehG7E7sXaDUQkdyrJ0GMgO4fFGhX3aRdSwBQfJqSQkxvGpUKtCE+UNiY3IXGeUt1uyG/WDLfvJm6KAK0G3b7mUo8U/4fF1vRCnM5sH29wjToOMKtiDUihNC+I/geCuxIzQT+lLtVT0QzIY1kwelQsWfK78O5V4c1HpkH3og2lwYH5fPibMMCxe4HPdAcOkTnMyC3y4Z9qzhLQ9QoAw77oL9/EJnorCtfbZ1WaW5FHJz0TT4BZYTwipMquwjytJVXYW+I6hK58T34uJBV1PDo93jZTS+wkE5fTyx6CJllyteCabyNG33wpSVj3fLFGTxQyKS1XTxsUB6QX+EgVzqtEBEcwSZPa9xGF7HCxI6o+72VsUQ0azKUjaXrXX/r+X313Y7z0gM1arPENOFena9ZzUnDhGX/vR3jifJPhkPhhn6nUwiVp7LBC5zqVcn+NYyh3rSEDkkPuwjzK1I9wpM4QupHdUeyGyp5+0ukJjTfDpQz1WnB6J0MKn+4rRVY3SYOW+d+aPDoubM4WxiRU0hyoo8kr2N9IKa++HUOs4s72QrIfMoxpfbnmJJURc3T1ceeAOagJfT4x30yjIrjURK9QW8Bt2yqV7/83cpWqJq7u0ExRuS+tjRkvZ6AhJN8q7i8paElU3RO06fzMX2WQ+RIcvFKcxfZtLQ43D0Ix3bMFceEq35yAyeJkNwugNeRBpL981OYhiRBdrj5+NojbvYDSSaerh/DnfMqpQ56aRZXNl3SiWUPUdLU8KBPiRdgNImqIPCXXWoH0zgy9iVTbt1bJiRB4zBN+GqufIxO/6Kbdvs6gsFJ4FJD/ti2cK3rh0hySsEYBWQuttapNWM7vIm5iB//MPOy1zLIEavzln1WqZmDs9pQKT9fsAUXQ1rFKN4EH40nGtyr/DI3XZ1eofp3DMA8rxV/yk2wzFDrLRmTEyebCJoJVDNxre4z5Fk9O7uK1JNe+Wips2TIwSOMTPGyqdIDAd38SvA33Dp/rplzsDSdshyfC1yVQZR+e0/tM2TVl1r+VLGImcX/fc3G7DX/IatlRwtMfpVjuzKpz1Y3KY7ybLAk/8SoUdSOwaoZ9kU1ZllSvO7vEi5LNma/FxUl/aHMOPcZzyJfHNTh3Pw5wQQHo/I4grjSbysojll7AXMkgWbC02f2WD8GE4mAa5gnzN11aoGNoeGgV6bE7T7GyUb/msYhGOc/oT5q/1sIp4PzrS/D2v7irE087xLIGdE5a96QusZ9zVc7ol60/OZskSphm99U1I7hp5fs7MKOPHudMRknruCnruDgaRRxIS6zIXmgNDlG5c4JZ26yH3cMnU+xuWEVregYSX3wqwOGjDsTKED8uVVIIP0BiMmjMK0bHQZYTDcn5USSPv1hYi2LMzT1nV9k5xS/KxnH85uccA1s8HlcZDLiFZfwpSyxmlcrZ6zIo9i7hAfju4Gky2mhaFxi6ppFC7vOE/LjhmUmyMb6OnWHSexgAewUj6yVaIZLs+QfQ7xlzXJrDZCtAt74d0qG5bqye0rPx37fUQfsmfTzR0UMJiU5webfNUL93zwLvrSolkZMugiZiX9bCrWJEvXK4yPQkahTMHB4bWU25QUCk9p//SXHWSk8JujecqExiY9tN/hSIvEotDwhxrKNwftbhq4cB5fJbaKhoJwORHWLtsj33hQ/2BHhhLXBx2DlxkCZ5tlbBqg==|1944

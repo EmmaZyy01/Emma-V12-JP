@@ -1,0 +1,269 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "30": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 31
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "19": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 20
+  },
+  "Values": {
+    "5,3": "パスワードの変更",
+    "9,3": "*",
+    "9,4": "現在のパスワード",
+    "13,3": "*",
+    "13,4": "新しいパスワード",
+    "17,3": "*",
+    "17,4": "新しいパスワードの確認",
+    "22,3": "パスワードの変更",
+    "25,3": "キャンセル"
+  },
+  "AttachInfos": {
+    "10,3": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "ShowPassword": true,
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_NewUnderlineUpdate",
+        "ForguncyAttribute": "ChangePassword_OldPassword"
+      },
+      "DataValidationInfo": {
+        "IgnoreBlank": false
+      }
+    },
+    "14,3": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "ShowPassword": true,
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_NewUnderlineUpdate",
+        "ForguncyAttribute": "ChangePassword_NewPassword"
+      },
+      "DataValidationInfo": {
+        "IgnoreBlank": false
+      }
+    },
+    "18,3": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "ShowPassword": true,
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_NewUnderlineUpdate",
+        "ForguncyAttribute": "ChangePassword_ConfirmPassword"
+      },
+      "DataValidationInfo": {
+        "IgnoreBlank": false
+      }
+    },
+    "22,3": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "Text": "パスワードの変更",
+        "AutoExecute": true,
+        "TemplateKey": "_RS_Main1",
+        "ForguncyAttribute": "ChangePassword_Button"
+      }
+    },
+    "25,3": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
+        "Text": "キャンセル",
+        "ClickMode": 1,
+        "TemplateKey": "_RS_Main",
+        "ForguncyAttribute": "CancelChangePassword_Button"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0,
+        "FontSize": 24.0,
+        "FontWeight": 1,
+        "Foreground": 2,
+        "Formatter": 3,
+        "HorizontalAlignment": 4,
+        "VerticalAlignment": 5
+      },
+      {
+        "FontFamily": 0,
+        "Foreground": 6,
+        "Underline": false,
+        "Strikethrough": false
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 14.666666984558105,
+        "Foreground": 7,
+        "Formatter": 3
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 14.666666666666666,
+        "Foreground": 8,
+        "Formatter": 9
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 16.0,
+        "Foreground": null,
+        "Formatter": 3
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 16.0,
+        "Foreground": null,
+        "Formatter": 3,
+        "HorizontalAlignment": 10,
+        "Underline": false
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body",
+        "Bold",
+        "Text 1 25",
+        "[AUTO]General",
+        "Left",
+        "Bottom",
+        "#FFFF0000",
+        "#FF7F7F7F",
+        "Text 1 15",
+        "@",
+        "Center",
+        "#FF000000"
+      ]
+    },
+    "CellStyles": {
+      "5,3": 0,
+      "9,3": 1,
+      "9,4": 2,
+      "10,3": 3,
+      "13,3": 1,
+      "13,4": 2,
+      "14,3": 3,
+      "17,3": 1,
+      "17,4": 2,
+      "18,3": 3,
+      "22,3": 4,
+      "25,3": 5
+    },
+    "SheetStyle": {
+      "FontFamily": 0,
+      "FontSize": -999.0,
+      "Foreground": 11
+    }
+  },
+  "Spans": [
+    "5,3,2,14",
+    "22,3,2,14",
+    "25,3,1,14",
+    "18,3,2,14",
+    "14,3,2,14",
+    "10,3,2,14"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "Title": "パスワードの変更",
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "PropertyDefinitions": [],
+    "CommandDefinitions": [],
+    "MethodDefinitions": [],
+    "PageLoadedCommandList": [],
+    "IsBuiltInPage": true,
+    "IsMobilePage": true
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  },
+  "BackgroundPictures": [
+    {
+      "Name": "469b2a00-3c73-4c59-bcf4-8ed45845ba8b.png",
+      "StyleInfo": {
+        "CornerRadius": 20.0,
+        "Fill": "#FFF6F6F8",
+        "StrokeDashType": 8,
+        "Stroke": "black",
+        "StrokeThickness": 0.0
+      },
+      "IsAutomaticStroke": false,
+      "IsAutomaticFill": false,
+      "Location": "20,60",
+      "Size": "340,500"
+    }
+  ]
+}//jtoA/RFCwasLoGdf43C0zKu9CvnYkhmS/TzfTk5BclEvOzpqijwirHDISnsUv9+ei0rM5Ju2PHwo6My/XaR+2XdVQ5J+8u68QWtZN86vuFvtygJPjykQiRwhX6/zT4Yw8HNeRVCNqxlhSBx/D/zss/qmi2AeYmMtg7Op9gO+WpkHdKD+IGYUq7N4I5jJF0ctJa1Va9bGoFlbLCMlJ08xAdD7MP7wRRnkJ2Cak+vckwWpbAWRU2xYsDl6P7GhYDEGIh3MZIcbdQQBT6bYg10WPl92PeR40204+a7RScMtkaQZouv7DFchevecVmh+Q3G/Fa1tcF0OtuY7523J/L+Zq9bfMnEZRtDCOgxOzNdzD5nNOhrIpRP1pMVbS950rWOJLhoG1CVvu84g8g8DxZI16pjtfPtj4He7pztTG+T4sicqi12RyOEQtfbcNWQq8PfK7gIh39AL6EVu8aE9KZAYWJX5RGdp11fRVLB3JK+s2OO5N9gIC2a59ybIcBEsGFoD7hZ1iyTi7k/iuEUjwjDP08QdwgjgwxCPeUSRK9k/1lTeaELgJGgDfsdJfIs0E8At2p9vxSIwMPoG5V2NXTa5twh/4E0WlyC4Oy5xnClC1A9TKgttBzjyjziR3CgTCT+F4bX4u4QLWdZYarbv3HhItRgqOstfhYgYPEenegbQsN+sf0n7kl3jG0OSEn1bLv4exGC38T305dNPqqpW9nzRpIrWwxFzgkUCjKHJAwtVTAUyNiuUjz4pViefSkZYJrKtiDLzod8TY+iO1oiLTdtd/GAhnYdkHJmOBKqlXnKyplCGMiz8eFfB79TC2IdYAyn/x4pAOEdXIrxn8uQ7bkSBh8y4uaHoAbEQ/DS3J/UplNGqAYDirHVmhiVuK27J20khtiz0vQLcilD7AA41QGzO8+Py8qWCcnn8kXVPif7HE+wcB/7/D4/bfEmXdYNZPogOHCQsuf1a8LrB3uhO74Y5pVPwSjkZ+GLHfgJsGwTkWTtZCeUfuwtHQH37hSMmCKTnke+WSXcfUj93bi6ZCgkcJk5Rn54vwY2A4Z3FRan8pt83JH64xHJuy3+wHH0ExXCCQ/QIivCM2ciK30oTU4TkeR8smfnE8PifO0M70ZKFrVkClJHQ9KeD1v6u5Wcg246gxwx1ptsXdnUPUdwZE0AYu+bZwRLnt3bs0/sO5DrTU7++MC41SPDjBKrha2XAIe7g+YlMAmOKR1KM1ZWIgnIuZuDLa/BEq/1Mm4wzLj6raBBblxhwvz6lNDnazVowtvI3N+gJ0fFUilgsPF5iX1WKNMZJaoxnTPuQem1CE/zw5IFOuwPp1RiQvAP90GM5dpNLSZ7vJ8UNFTrwqIkqOi+4r0tNZLt8rrZ2caL+VtSM6j1qJw1OsmJakiw3BiwyYO+ndhC5JW9aXdRfOnV/ee0reQ8x5VMyvOD7f6toAsO/GlJcOZWbEHSXeJCUKG2yBDQG1DiArAs3QTadkweCyidVAPh4K+Y6Gtj2tLiTntMCbsk0zURqM+p4i3m4Cspa60ZAzh6P7D60ZUNxthHhroryKG/cH8G4MBPFaQWPDKD/FM9UP4Fz0Oy2BYHDXRT+6zysCW6xwoq4KzlH9QMWpm/9d/RrBYTTUOf+eIbIU5ApTVbrG0FTnkSjgCWiOPHQQYbSVZeOqed743iEuLvKRwEvaXNEtRKTRSBru3xo1ALXOKO452Alt/bEJTJxlwcLDXRB/ufzSm65nmLwXgE29ueejmWn7xnawFcfhIVDMgCWihUZsXcbkVnx/7wvqXTLBr9youa52QKQu2MGJud0XdDvyvUzm1OZZ94pdgFQ4F4q+lM2yBxjsHv1FXTcv4pA+yYlQZ0EWiJD8gYWmIrhuL9HuJB6wAawnEQ5cbzlBUZ2PD5mrImhAlI53jxp3C12hFtX3/IVSDzr9Y9ecAmfhGq/hQ==|1944

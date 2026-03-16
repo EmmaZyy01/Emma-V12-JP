@@ -1,0 +1,281 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "30": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 31
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "11": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "19": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 20
+  },
+  "Values": {
+    "4,3": "ユーザー情報の編集",
+    "14,3": "*",
+    "14,4": "氏名",
+    "18,3": "*",
+    "18,4": "メールアドレス",
+    "23,3": "保存",
+    "26,3": "キャンセル"
+  },
+  "AttachInfos": {
+    "8,8": {
+      "CellType": {
+        "$type": "Forguncy.UploadImageCellType, ServerDesignerCommon",
+        "TemplateKey": "_RS_Shadow_EmptyText",
+        "UploadImageLimit": {
+          "IsCompressImage": true,
+          "MaxWidth": 300.0,
+          "MaxHeight": 300.0,
+          "AllowExtensions": ".png, .jpeg, .jpg, .bmp, .gif, .ico"
+        },
+        "ImagePath": "Navigation/238_user_8.svg",
+        "BuiltIn": true,
+        "Color": "Accent 1 40",
+        "ForguncyAttribute": "ChangeProfile_Picture"
+      }
+    },
+    "15,3": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_NewUnderlineUpdate",
+        "ForguncyAttribute": "ChangeProfile_FullName"
+      },
+      "DataValidationInfo": {
+        "IgnoreBlank": false
+      }
+    },
+    "19,3": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_NewUnderlineUpdate",
+        "ForguncyAttribute": "ChangeProfile_Email"
+      },
+      "DataValidationInfo": {
+        "IgnoreBlank": false
+      }
+    },
+    "23,3": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "Text": "保存",
+        "AutoExecute": true,
+        "TemplateKey": "_RS_Main1",
+        "ForguncyAttribute": "ChangeProfile_Button"
+      }
+    },
+    "26,3": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+            "NavigateType": "back",
+            "BreakpointIdentity": "e9eb4a4e-4eff-44dd-adcf-081b406a25e1"
+          }
+        ],
+        "Text": "キャンセル",
+        "ClickMode": 1,
+        "TemplateKey": "_RS_Main"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0,
+        "FontSize": 24.0,
+        "FontWeight": 1,
+        "Foreground": 2,
+        "Formatter": 3,
+        "HorizontalAlignment": 4,
+        "VerticalAlignment": 5
+      },
+      {
+        "FontFamily": 0,
+        "Foreground": 6,
+        "HorizontalAlignment": 4,
+        "Underline": false,
+        "Strikethrough": false
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 14.666666984558105,
+        "Foreground": 7,
+        "Formatter": 3
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 14.666666666666666,
+        "Foreground": 8,
+        "Formatter": 9
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 16.0,
+        "Foreground": null,
+        "Formatter": 3
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 16.0,
+        "Foreground": null,
+        "Formatter": 3,
+        "HorizontalAlignment": 10,
+        "Underline": false
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body",
+        "Bold",
+        "Text 1 25",
+        "[AUTO]General",
+        "Left",
+        "Bottom",
+        "#FFFF0000",
+        "#FF7F7F7F",
+        "Text 1 15",
+        "@",
+        "Center",
+        "#FF000000"
+      ]
+    },
+    "CellStyles": {
+      "4,3": 0,
+      "14,3": 1,
+      "14,4": 2,
+      "15,3": 3,
+      "18,3": 1,
+      "18,4": 2,
+      "19,3": 3,
+      "23,3": 4,
+      "26,3": 5
+    },
+    "SheetStyle": {
+      "FontFamily": 0,
+      "FontSize": -999.0,
+      "Foreground": 11
+    }
+  },
+  "Spans": [
+    "15,3,2,14",
+    "19,3,2,14",
+    "23,3,2,14",
+    "26,3,1,14",
+    "8,8,5,5",
+    "4,3,2,14"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "Title": "ユーザー情報の編集",
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "PropertyDefinitions": [],
+    "CommandDefinitions": [],
+    "MethodDefinitions": [],
+    "PageLoadedCommandList": [],
+    "IsBuiltInPage": true,
+    "IsMobilePage": true
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  },
+  "BackgroundPictures": [
+    {
+      "Name": "daf919ca-2e76-4b75-a162-f69340598f0f.png",
+      "StyleInfo": {
+        "CornerRadius": 20.0,
+        "Fill": "#FFF6F6F8",
+        "StrokeDashType": 8,
+        "Stroke": "black",
+        "StrokeThickness": 0.0
+      },
+      "IsAutomaticStroke": false,
+      "IsAutomaticFill": false,
+      "Location": "20,40",
+      "Size": "340,540"
+    }
+  ]
+}//DGYbgO3Z4skp7V3IB0zexiVrzsb0IrHUqHvWttBt4OD11Dv0K1M+gKT7gLujG0pfV+bacryQmoklcQxBPoNj3NfXXXLKZG14dvbnZNYrz6frqcRhCg5rebnbpm7n/gIRxwT1nRZ34tcbz2jO5yuangZImEZNzNKhkX3Y5szRJgwxelnHVy5zw5JWGPYZDSSpUqyE9ygwrCzmP05peiMVyhqpTWev5sXJw6iCZnbxPuDRwVKQzQdhu7qy5BErQY2mNACukO0A7cOppN6CoFR7HBUT88esAuaVdRk/pGZbvyE+YtjzHeMoRgkE+GxFNmMKguqRXnIFpSeBdGm0RGdKkdB5iam/oDLGtHYdrKxRvvQ6DeGYHz98R8ghzSgkvAVhzkQq480Z5/HpdtSefNWmkbU7Noabartx6bftOrm3MEMYEHn2l55NHhOji+8iNmrVMEhe795YhV5IfhxprSvuBQy3b8i1pOR71uwN+++vlJAKubuD7OHrn/DjYZaXQyVQj1L2ajcpGjUzAqp6vTNkfu69W0hPWEXWActwaOhaKHenA1SR91ZEGG+QK9aRqIgOlipxIJmv/+m4PB7xGO65N1p1qks5QJGsFQ4NnPeDsKatI2IX0qJlzJ37yIw+j/QnRlnFMJf4tuHb5iFNz1UFXCmEpennGccRFEvVeCyKHftsPiJyLnmVXN/pcda93Wj+EDUIZD7Oix6PTd+pshM18Avo1efHgSXeSOXcaB/nyM2UA/38N+I8Q6u99W0AJINDUE74abX40xBUvmvZkhQcjzc+ale/jdQ8MLIBxVkqXf+txvqP3TMeJSw+1kVYWgt8uQNYOLPy18IL7yH3IUChhAqrv7XL7x4GnwlhcRKwXDBEwCO7Z8c+ZcKP352dp5No8WQkm1a7SFGYRpcGle1yw5OPE00T0sMzyxJ7l9XtaTeCw0IfF9hQLcg/2MH0X2Z3oqANY2YjE1utDFr4n1xt0VYZKiCaXDlYZmzg7gOrjRuPsEcK6IVQoJ9p5zgKpFFVKt1fMqQuyIFD2QHllBo7xH6SvsOILs3xSRTvClyokVzpLYxYYlMz7iYFqFlrOqP19cKhIA1nUqAf+mPM7S/Q45Y6OawSdcnuUfW1R8q/KPbBY/QuTYSJgLTtHIsaKCZHn9szAjDL/zmh+coHn6V/6wbBT+NY3yobGLkSCGYG0v4bD0m/akecYlGi+FfBWoUhazbVfYnX04hx8gmQ0CG9i7V/SPep/g4VzhM1J5hPcSLmW8DjJ6caQQsPzF7DLKVpCHfsyfJIJ3UDejwcCpgfW09lZahN34SmwnOG0x5SPt5mIvWr1BqCB5BehkkxEIxLxb6jAU6/UyC9tRlV5fpJXPJ9azNcTJ9EkoQB1UniSzENuFwyvRPSkVq7sGu6LLmItBlgv7xRUsBpITIJcaaslO12xedwAnjgTXflVTms9Qo4Vd9XoBLkoAh55jJf+wZxPTlFihqXCFNCvr2UFDWImKWbhgnoztvFazoWvQ6OAEePNyIbp6Ulesw2PWuJv3RPSix4nfTGFXbQnBswpvfLnZDOaqoKQ48h9o/VHFuVqI+bnTWY1OVCWD/e6nClmFmJfDiQIc9Z1ZjgT8coU8RtF3dKzz15lJVoum67G6zQHsDvd3U08cCxcOjOJuxISrWVVdaBDbEclGTzzOP+k/y4hEUCynfMAphup/R7PSQ2lWnxHnzfW61olIOEhQ5QYcyVCPfmxEHw8eLyJ5GyXIajyJa/S6yVMawLBbABkj0v/w05J1YcNP7AiT2zYc6eSGPcl3p0akifRIZ78cCKUqq8ZJpfhT5OW1S1MGNGaXnWwtWDktSe8s99oK6fVO9BjJlUSKsW7gOHQTWaMVY7iYfFH2g4HYuUrvR7Y81Gdk2jYKdFLCJmU1xEG4brm98PEXqjc4MfPWFdnWZrMZ7U0xfzBw==|1944

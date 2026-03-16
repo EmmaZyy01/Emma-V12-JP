@@ -1,0 +1,161 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "30": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 31
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "18": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 19
+  },
+  "Values": {
+    "15,2": "接続タイムアウト",
+    "18,2": "一定時間操作が行われなかったため、アプリケーションは切断されました。\r\nボタンをクリックしてこのページを再読み込みします。",
+    "22,5": "ページの再読み込み"
+  },
+  "AttachInfos": {
+    "4,1": {
+      "CellType": {
+        "$type": "Forguncy.ImageCellType, ServerDesignerCommon",
+        "ImageSizeMode": 0,
+        "ImagePath": "fgc_built_in_page_disconnected.png"
+      }
+    },
+    "22,5": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "Text": "ページの再読み込み",
+        "TemplateKey": "_RS_Main1",
+        "ForguncyAttribute": "ReloadPage_Button"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0,
+        "Underline": false,
+        "Strikethrough": false
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 24.0,
+        "FontWeight": 1,
+        "Foreground": 2,
+        "HorizontalAlignment": 3,
+        "VerticalAlignment": 4,
+        "Underline": false,
+        "Strikethrough": false
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 13.333333333333332,
+        "Foreground": 5,
+        "Formatter": 6,
+        "HorizontalAlignment": 3,
+        "VerticalAlignment": 4,
+        "WordWrap": true,
+        "Underline": false,
+        "Strikethrough": false
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 16.0,
+        "Underline": false,
+        "Strikethrough": false
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body",
+        "Bold",
+        "Text 1 25",
+        "Center",
+        "Top",
+        "Text 1 50",
+        "[AUTO]General"
+      ]
+    },
+    "CellStyles": {
+      "4,1": 0,
+      "15,2": 1,
+      "18,2": 2,
+      "22,5": 3
+    },
+    "SheetStyle": {
+      "FontFamily": 0,
+      "FontSize": -999.0
+    }
+  },
+  "Spans": [
+    "4,1,10,17",
+    "15,2,3,15",
+    "18,2,3,15",
+    "22,5,2,9"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "Title": "FGC_接続タイムアウト",
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "PropertyDefinitions": [],
+    "CommandDefinitions": [],
+    "MethodDefinitions": [],
+    "PageLoadedCommandList": [],
+    "IsBuiltInPage": true,
+    "IsMobilePage": true
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//QB/6lYV+gsoecTrc1NzFQSQHu5+YqlaOLa2EaY80wIzOgYJ5+iLDQzqaT+mAyALfbZU2vS2I2jc9Xn0AUfU6Idilkm1POI4KBA6DvEjn/YOdATwRCOjjgwnu3bYU0yDOVWMxSSxcO94HD/NmlCqIUGlRQrM2ss7htciNUnwYG7HNafR7VNctSC4hoInk3GiCQn4GqSaLvZVbcKFsqPeBqWwn2aaGTOFHFS98QGzQ4J6MDr47DzbwuLCFCgjvrtFXJ8axtvrmV205bM0C08C3kbsmnxLbrh081AGn5jgz/zIbTrykM31LFoCzO9ufa26+1cEdebCCDYKHmUs4va3Y4uOnFAEiLC3GfUEbF4Gq1erwOvFFaeODpfnms2T58v48mJAWPgPBR9t4Nqvi/rVfZkqLAydtTRi14D1Owl2FD03M48lP7hpLPN1KND4y1XVzf5ajuANsL3k5B5XfeMxiBzlDLCQOtFAWB+XO88yPXpt19Em1SCBiEpl8uCxFYwkH56MpQRNU8Vtt44+WduTPsXq/38GaX/C2KnKCNO2tmJAyyyE4h8USNimyCxKHFAbJpT5/MBqOwSeOO87eXuhtAToJ8eQjK6mIv1wIdlJHzTsR2plYpwyBJoUcpWbG1/HG+O8AQhZ5fwlbcMpT23oK7sheTSU+Yc1sZkr8yeWPXoZZVZpmooisMTHrf0OhXelYtjAFTdyjmCadkWpOpj1gCazVUtuPLBemxtMB/isqADX9PVpUYClGOuChraIkZvYaszwOW8+uBq6bX/eBeNuJ2ll2uJP0SxMvXVBBZHWaDTGGyFI3riPoCbkJ8ziRqCouqzAOC4Y31fOwHIYcME9bL3u5X+K0LzWl2zycQiXJv0WNH/tsTajAT8SPZu5t6oaMzUNh0izTu6uk6XrLNeIA9Tqjqokj2kZKkUjjPD/A+dsOQz2RaZTYFXsNTgtrOi/8/lIU6QL2LtoQUXOddBNboTkm/faiRAyRvaqH2zXgKA1KjoFMZlxv3+3zYRUGpG2uQEM3/FRXrNpfthZ7kW568FIiaWSm3yP4EvslTZMGYa8WkcwYJ3Umtm2FMuBwnSo+FJhiMz+yIvP6jFIVioG0vz7uPZK4a3vhtGXAfq8Ml5rWwrkA3B+QYTOU14Kgy4njHCeVPTosVSum2RlRHZpW+8UOndYttK1CnL4atCCWFLVy9J+6xTW2A/cDy9lRt4Ot1Cddt3uS4Y1WbfWc6/t6+4CpnzEKvAM5ad3WesdmTfOC2KLbyEJS2s5tRhhB6RPeBfwtiAHEZzohqKP3K3v3Qv3IYWfErrLM5EyKGEpIyaIsFL+Zac9byMoKsZU+s8vrfAGvxio/cTQhDKDIhXNBKlkP1jdi9Wr+WqfBsq7AkSX0ickY9Dl6LOC9om8iUeJRAqW79mSWssCU8GgdKbcVQ9RbqI4Cn9LfvSlT/4Mbenr3dUDQcMDH/Bkp3+tBbCXuwlXmdorwanc13wreuAagMyJt0Kj7DUmLV2I3C9iNxzftKqaaP1fnz08TpQH+qKFEvbfNHsGbss9hK+LsgNZR7omQhH0b7nky1/gz4VWoeBBbEFk9D/0JXSsPksYsbVbGle1lCSoN/tiMI4n6o6grXhyyhDOD96RxdFa208oHc5xPPv1HOR7c5SySRmAl4vHiRadUnLQLdTRc/4QdCtuyRieIPCUVx8G4QKo1HItYDTeDLu1OdvFKGTdN5nmEopmkx9m5kUhCPs1pwgBdKeWpVoUbtIJB3zCGzAuz2j3CgkQWvV2OXwXFyhv6NeV+L/PjEswYQWYTcYh65ewAP8wkyERKxpHNTLKvfpuarGZPApGCI8iS54WZ5gEhXJ93ecfYzOtS0z6gIK6BsHm1JuqVIJ7xKBnK7FxaZTG4erpw3P6ekR6Jg4+G1KX6l3gurBFvzoKxlJ/h5TZCbSlQrMHAaw==|1944

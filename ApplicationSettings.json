@@ -1,0 +1,43 @@
+{
+  "IntegrateWithOtherApplication": {
+    "Password": "5cbhe9OOi04Q"
+  },
+  "ShareCommandContainers": [],
+  "ListviewLoadingIndicatorSettings": {},
+  "ServerPropertySecurityID": "209fccff-5fc5-48e7-b555-ade46e8bcce2",
+  "GlobalProperties": [],
+  "WebSitePort": 18144,
+  "UserServicePort": 16263,
+  "StartDateFiscalYear": 4,
+  "BaseOnStartingMonth": true,
+  "MultipleLanguageSettings": {
+    "Languages": [
+      {
+        "Name": "ja",
+        "IsDefault": true,
+        "Description": "組み込みの日本語は削除できません。",
+        "IsBuildIn": true,
+        "LanguageAttribute": "ja",
+        "FontFamily": "Body"
+      },
+      {
+        "Name": "en",
+        "Description": "組み込みの英語は削除できません。",
+        "IsBuildIn": true,
+        "LanguageAttribute": "en",
+        "FontFamily": "Calibri"
+      }
+    ],
+    "PublicResource": {},
+    "RuntimeBuiltInResource": {
+      "FrontEndResources": {},
+      "ServerResources": {},
+      "PluginResource": {}
+    }
+  },
+  "AppAIModelSettings": {
+    "AIModels": []
+  },
+  "AppMCPConfigSettingEncrypt": "0gu70qzOrh7lXSau63use5CjR0ORZwbLYkVTeAtBnqQ=",
+  "ServerCommandsAsMCPServerSetting": {}
+}
