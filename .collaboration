@@ -141,18 +141,8 @@
   },
   {
     "ModuleName": "ApplicationSetting",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "EmmaZhao",
-      "Email": "EmmaZhao@qq.com"
-    },
-    "LockDateTime": "2026-03-16T09:33:28.1287257+08:00",
     "ModuleType": 8,
-    "IconType": 10,
-    "ToRemoveFiles": [
-      "ApplicationSettings.json",
-      "favicon.ico"
-    ]
+    "IconType": 10
   },
   {
     "ModuleName": "Theme",
@@ -220,11 +210,6 @@
     "IconType": 42
   },
   {
-    "ModuleName": "Plugin",
-    "ModuleType": 40,
-    "IconType": 43
-  },
-  {
     "ModuleName": "PublishSetting",
     "ModuleType": 41,
     "IconType": 44
@@ -233,17 +218,5 @@
     "ModuleName": "PermissionGroupConfig",
     "ModuleType": 44,
     "IconType": 45
-  },
-  {
-    "ModuleName": "Table/workflow_table",
-    "ModuleType": 7,
-    "IconType": 24,
-    "ExclusiveType": 0
-  },
-  {
-    "ModuleName": "Table/workflow_table01",
-    "ModuleType": 7,
-    "IconType": 24,
-    "ExclusiveType": 0
   }
 ]

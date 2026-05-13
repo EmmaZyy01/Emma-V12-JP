@@ -1,28 +1,28 @@
 {
   "IntegrateWithOtherApplication": {
-    "Password": "5cbhe9OOi04Q"
+    "Password": "j4)CEMh5(TB9"
   },
   "ShareCommandContainers": [],
   "ListviewLoadingIndicatorSettings": {},
-  "ServerPropertySecurityID": "209fccff-5fc5-48e7-b555-ade46e8bcce2",
+  "ServerPropertySecurityID": "e420ce8a-714c-4df6-964a-a87462edf21c",
   "GlobalProperties": [],
-  "WebSitePort": 18144,
-  "UserServicePort": 16263,
+  "WebSitePort": 38546,
+  "UserServicePort": 19249,
   "StartDateFiscalYear": 4,
   "BaseOnStartingMonth": true,
   "MultipleLanguageSettings": {
     "Languages": [
       {
-        "Name": "cn",
+        "Name": "ja",
         "IsDefault": true,
-        "Description": "内置语言中文，不可删除",
+        "Description": "組み込みの日本語は削除できません。",
         "IsBuildIn": true,
-        "LanguageAttribute": "zh-cn",
+        "LanguageAttribute": "ja",
         "FontFamily": "Body"
       },
       {
         "Name": "en",
-        "Description": "内置语言英文，不可删除",
+        "Description": "組み込みの英語は削除できません。",
         "IsBuildIn": true,
         "LanguageAttribute": "en",
         "FontFamily": "Calibri"
@@ -32,30 +32,12 @@
     "RuntimeBuiltInResource": {
       "FrontEndResources": {},
       "ServerResources": {},
-      "ProcessDesignerResource": {},
-      "ProcessTrackerResource": {}
-    },
-    "PluginResource": {}
+      "PluginResource": {}
+    }
   },
   "AppAIModelSettings": {
     "AIModels": []
   },
   "AppMCPConfigSettingEncrypt": "CenjpRlR4GU38OalW0mjUw==",
-  "ServerCommandsAsMCPServerSetting": {},
-  "OldWorkflowPermissionData": {
-    "$type": "Forguncy.RbacPermission.Core.Impl.OldWorkflow.OldWorkflowPermissionData, Forguncy.RbacPermission.Core",
-    "permissionResource": {
-      "$type": "Forguncy.RbacPermission.Core.Impl.OldWorkflow.OldWorkflowPermissionResource, Forguncy.RbacPermission.Core"
-    },
-    "permissionBindings": [
-      {
-        "$type": "Forguncy.RbacPermission.Core.Impl.OldWorkflow.OldWorkflowPermissionBinding, Forguncy.RbacPermission.Core",
-        "oldWorkflowPermissionType": 1,
-        "roleNames": [
-          "Administrator",
-          "FGC_LoginUser"
-        ]
-      }
-    ]
-  }
+  "ServerCommandsAsMCPServerSetting": {}
 }
